@@ -18,11 +18,6 @@ jobs:
       - name: Test
         run: echo Hello, world!
 
-      - name: Move index html to pubulic folder
-        run: |
-          mkdir public
-          mv index.html public
-
       - name: Deploy to GitHub Pages
         run: |
           git config user.name "kenechukwuJosiah"
